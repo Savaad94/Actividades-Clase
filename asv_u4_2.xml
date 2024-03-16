@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cinema [
+    <!ELEMENT cinema (directors, movies)>
+    <!ELEMENT directors (director)+>
+    <!ELEMENT name (#PCDATA)>
+    <!ATTLIST director name CDATA EMPTY
+        birthdate CDATA #REQUIRED
+        country CDATA #REQUIRED>
+    <!ELEMENT movies (movie)+>
+    <!ELEMENT movie (release, title, director)+>
+    <!ATTLIST movie title_es CDATA #REQUIRED>
+    <!ELEMENT release (#PCDATA)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+]>
+
+<cinema>
+  <directors>
+    <director name="Francis Ford Coppola" birthdate="1939" country="USA" />
+    <director name="Christopher Nolan" birthdate="1970" country="UK" />
+  </directors>
+  <movies>
+    <film title_es="El Padrino">
+      <release>1972</release>
+      <title>The Godfather</title>.
+      <director>Francis Ford Coppola</director>
+    </movie>
+    <movie title_es="Thelma y Louise">
+      <release>1991</release>
+      <title>Thelma and Louise</title>
+      <director>Ridley Scott</director>
+    </film>
+    <movie title_es="El caballero oscuro">
+      <release>2008</release>
+      <title>The Dark Knight</title>
+      <director>Christopher Nolan</director>
+    </movie>
+  </movie>
+</movie>

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CCCECC;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: right;
+    position: relative;
+    top: 0px;
+    right: 200px;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin-bottom: 40px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-right:0px;
+}
+
+.box {
+    width: 80%;
+    margin-bottom: 0px;
+    background-color: #ffffff62;
+    border-radius: 10px 30px 20px 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto 10px;   
+    text-align: center; 
+}
+
+.inner-box {
+    width: 96%;
+    background-color: #ffffff62;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.box p {
+    text-indent: 20px;
+    text-align: left; 
+    padding: 0 10px 0 10px;
+    line-height: 1.25;
+}
+
+.box h2 {
+    background-color: #808080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 0;
+    text-align: left; 
+}
+
+.inner-box h2 {
+    background-color: #808080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 0;
+}
+
+.yellow-rectangle {
+    width: 40%;
+    height: 5px;
+    background-color: #EFC11A;
+    border: 1px solid black;
+    margin: 10px auto 10px;
+}
+
+.box h3 {
+    background-color: #B4B2B4;
+    color: #fff;
+    padding: 0px;
+    margin-top: 0;
+    text-align: left; 
+}
+
+.box img {
+    display: block;
+    margin: 0 auto;
+}
+
+.yellow-rectangle-2 {
+    background-color: #EFC11A;
+    height: 40px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 0;
+}
+.menu {
+    position: fixed;
+    top: 150px; 
+    left: 40px; 
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border:rgb(52, 52, 52) 2px outset;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-bottom: 5px;
+}
+
+.menu ul li a {
+    text-decoration: underline;
+    color: blue; 
+}

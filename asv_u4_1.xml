@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE F1_World_Championship_Season_2023 [
+    <!ELEMENT F1_World_Championship_Season_2023 (race)+>
+    <!ELEMENT race (name, date, result+)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT result (position, name_driver, country_driver, car_number, team, engine?)>
+    <!ELEMENT position (#PCDATA)>
+    <!ELEMENT name_driver (#PCDATA)>
+    <!ELEMENT country_driver (#PCDATA)>
+    <!ELEMENT car_number (#PCDATA)>
+    <!ELEMENT team (#PCDATA)>
+    <!ELEMENT engine (#PCDATA)>
+]>
+
+
+<F1_World_Championship_Season_2023>
+    <race>
+        <name> The Monaco Grand Prix</name>
+        <date> May 28th </date>
+        <result>
+            <position> 1 </position>
+            <name_driver> Max Verstappen </name_driver>
+            <country_driver> Netherlands </country_driver>
+            <car_number> 1 </car_number>
+            <team> Red Bull </team>
+            <engine> Honda </engine>
+        </result>
+        <result>
+            <position> 2 </position>
+            <name_driver> Fernando Alonso Díaz </name_driver>
+            <country_driver> Spain </country_driver>
+            <car_number> 14 </car_number>
+            <team> Aston Martin </team>
+            <engine> Mercedes </engine>
+        </result>
+        <result>
+            <position> 3 </position>
+            <name_driver> Esteban Ocon </name_driver>
+            <country_driver> France </country_driver>
+            <car_number> 31 </car_number>
+            <team> Alpine </team>
+            <engine> Renault </engine>
+        </result>
+    </race>
+    <race>
+        <name> The Singapore Grand Prix </name>
+        <date> September 17th </date>
+        <result>
+            <position> 1 </position>
+            <name_driver> Carlos Sáinz Vázquez de Castro </name_driver>
+            <country_driver> Spain </country_driver>
+            <car_number> 55 </car_number>
+            <team> Scuderia Ferrari </team>
+        </result>
+        <result>
+            <position> 2 </position>
+            <name_driver> Lando Norris </name_driver>
+            <country_driver> United Kingdom </country_driver>
+            <car_number> 4 </car_number>
+            <team> McLaren </team>
+            <engine> Mercedes </engine>
+        </result>
+        <result>
+            <position> 3 </position>
+            <name_driver> Lewis Hamilton </name_driver>
+            <country_driver> United Kingdom </country_driver>
+            <car_number> 44 </car_number>
+            <team> Mercedes </team>
+        </result>
+    </race>
+    <race>
+        <name> The Brazil Grand Prix</name>
+        <date> November 5th </date>
+        <result>
+            <position> 1 </position>
+            <name_driver> Lando Norris </name_driver>
+            <country_driver> United Kingdom </country_driver>
+            <car_number> 4 </car_number>
+            <team> McLaren </team>
+            <engine> Mercedes </engine>
+        </result>
+        <result>
+            <position> 2 </position>
+            <name_driver> Fernando Alonso Díaz </name_driver>
+            <country_driver> Spain </country_driver>
+            <car_number> 14 </car_number>
+            <team> Aston Martin </team>
+            <engine> Mercedes </engine>
+        </result>
+        <result>
+            <position> 3 </position>
+            <name_driver> Fernando Alonso Díaz </name_driver>
+            <country_driver> Spain </country_driver>
+            <car_number> 14 </car_number>
+            <team> Aston Martin </team>
+            <engine> Mercedes </engine>
+        </result>
+    </race>
+</F1_World_Championship_Season_2023>

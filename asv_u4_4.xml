@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="asv_u4_4.xsd">
+    <book>  <!--Within a book, there is ALWAYS a title and an author -->
+        <title language="ES">La reina del sur</title>    <!-- Language attribute required -->
+        <author>Arturo Pérez-Reverte</author>
+    </book>
+    <book>
+        <title language="EN">Dracula</title>
+        <author>Bram Stoker</author>
+    </book>
+</inventory>

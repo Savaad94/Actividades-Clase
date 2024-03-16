@@ -1,0 +1,49 @@
+<!DOCTYPE countries [
+    <!ELEMENT countries (country*)>
+    <!ELEMENT country (area, currency+, government, borders)>
+    <!ATTLIST country name ID #REQUIRED>
+    <!ELEMENT area (#PCDATA)>
+    <!ATTLIST area NMTOKEN (unit) #REQUIRED>
+    <!ELEMENT currency (#PCDATA)>
+    <!ELEMENT government EMPTY>
+    <!ATTLIST government system NMTOKEN #IMPLIED>
+    <!ELEMENT borders EMPTY>
+    <!ATTLIST borders country IDREFS #IMPLIED>
+]>
+
+<countries>
+    <country name= "Spain">
+        <area unit= "km2">504,645</area>
+        <currency> Euro </currency>
+        <currency> Peseta </currency>
+        <government system= "Monarchy"/>
+        <borders country = "France"/>
+        <borders country = "Portugal"/>
+    </country>
+    <country name= "Portugal">
+        <area unit= "km2">92,212</area>
+        <currency> Euro </currency>
+        <currency> Escudo </currency>
+        <government system= "Republic"/>
+        <borders country = "Spain"/>
+    </country>
+    <country name= "France">
+        <area unit= "km2">675,417</area>
+        <currency> Euro </currency>
+        <currency> French Franc </currency>
+        <government system= "Republic"/>
+        <borders country = "Spain"/>
+        <borders country = "Switzerland"/>
+    </country>
+    <country name= "Switzerland">
+        <area unit= "km2">41,290</area>
+        <currency> Swiss Franc </currency>
+        <government system= "Republic"/>
+        <borders country = "France"/>
+    </country>
+    <country name= "United Kingdom">
+        <area unit= "km2">243,610</area>
+        <currency> Pound Sterling </currency>
+        <government system= "monarchy"/>
+    </country>
+</countries>
